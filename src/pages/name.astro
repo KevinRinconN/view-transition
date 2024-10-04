@@ -1,0 +1,28 @@
+---
+import Image from '../../node_modules/astro/components/Image.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Astro." >
+    <section class="max-w-2xl mt-20 mx-auto">
+        <aside transition:name="hero">
+        <div>
+            
+                <Image class="aspect-[16/5] object-cover rounded-lg" width={1020} height={520} src="https://media.cnn.com/api/v1/images/stellar/prod/cnne-1761820-colombianos-petro-libano.jpeg?q=w_1110,c_fill/f_webp" alt=""/>
+                <h2 class="text-2xl font-semibold mt-10 mb-2">
+                    Llegan a Bogotá 116 colombianos y extranjeros en un vuelo humanitario desde el Líbano
+                </h2>
+                <p>
+                    (CNN Español) – El avión Boeing 737 de la Fuerza Aérea de Colombia, que había salido el 28 de septiembre en misión humanitaria hacia Beirut, Líbano, aterrizó este jueves a las 8:20 a.m., hora local en el Comando Aéreo de Transporte Militar (CATAM) en Bogotá con 116 colombianos y extranjeros que se encontraban en zonas de riesgo en la capital libanesa tras los ataques aéreos de Israel en los últimos días.
+
+                    Ahora puedes seguirnos en WhatsApp Channel
+                    “Fue difícil entrar al Líbano, hubo que esperar en Chipre, pero ya se logró el rescate de más de cien colombianos en el país bombardeado. Dejamos ayuda humanitaria en el Líbano y se entregará más ayuda humanitaria a Gaza”, dijo el miércoles el presidente Gustavo Petro en su cuenta en la red social X.
+                    
+                    Israel ataca el centro de Beirut, Líbano, por primera vez desde 2006
+                    El canciller Luis Gilberto Murillo dijo a CNN que en la aeronave llegaron turistas que fueron sorprendidos por la escalada violenta y el aumento de la tensión en Beirut en medio de sus vacaciones y residentes en el Líbano. La evacuación fue coordinada por la Cancillería colombiana tras los pedidos de varias personas que consideraban que sus vidas corrían peligro, afirmaron desde Cancillería.
+                </p>
+        </div>
+    </aside>
+    </section>
+
+</Layout>
